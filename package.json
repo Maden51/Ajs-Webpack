@@ -1,0 +1,45 @@
+{
+  "name": "ajs-webpack",
+  "version": "1.0.0",
+  "description": "\"module webpack\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "serve": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maden51/Ajs-Webpack.git"
+  },
+  "keywords": [
+    "\"webpack\""
+  ],
+  "author": "Maden51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maden51/Ajs-Webpack/issues"
+  },
+  "homepage": "https://github.com/Maden51/Ajs-Webpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "html-webpack-plugin": "^5.3.2",
+    "http-server": "^13.0.1",
+    "mini-css-extract-plugin": "^2.2.2",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.17.3"
+  }
+}
